@@ -1,0 +1,52 @@
+﻿<Window x:Class="MyPrivateFinance.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyPrivateFinance"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+
+        <Menu Grid.ColumnSpan="4">
+            <MenuItem Header="Exit" Name="FileMenu" Click="MenuItem_Click"/>
+            <MenuItem Header="Help" Name="HelpMenu" Click="HelpMenu_Click"/>
+            <MenuItem Header="Manage categories" Name="ManageCategories" Click="ManageCategories_Click"/>
+            <MenuItem Header="Export" Name="Export" Click="Export_Click"/>
+            <MenuItem Header="Statistics" Name="Statistics" Click="Statistics_Click"/>
+
+        </Menu>
+
+        <Image Source="/Images/Logo.png" Grid.Row="1" Grid.ColumnSpan="4"/>
+
+        <DataGrid Name="PaymentGrid" Grid.Row="2" Grid.ColumnSpan="4" ItemsSource="{Binding Paymentlist}" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="#" Binding="{Binding id}" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Header="Category" Binding="{Binding Categories.Name}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Date" Binding="{Binding Date}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Amount" Binding="{Binding Amount}" Width="*"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        
+        <Button x:Name="Add" Content="Add" Grid.Row="4" Margin="5" Click="Add_Click"/>
+        <Button x:Name="Edit" Content="Edit" Grid.Row="4" Grid.Column="1" Margin="5" Click="Edit_Click"/>
+        <Button x:Name="Delete" Content="Delete" Grid.Row="4" Grid.Column="2" Margin="5" Click="Delete_Click"/>
+        
+        <Label Content="Balance: " Grid.Row="4" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,100,0"/>
+        <Label Content="{Binding Balance}" Grid.Row="4" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,50,0"/>
+    </Grid>
+</Window>

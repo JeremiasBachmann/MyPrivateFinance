@@ -1,0 +1,60 @@
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\AddPayment.g.cs
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MainWindow.g.cs
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\App.g.cs
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance_MarkupCompile.cache
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance_MarkupCompile.lref
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\MyPrivateFinance.exe.config
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\MyPrivateFinance.exe
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\MyPrivateFinance.pdb
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\EntityFramework.dll
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\EntityFramework.xml
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\AddPayment.baml
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MainWindow.baml
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.g.resources
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.Properties.Resources.resources
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.csproj.GenerateResource.cache
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.csproj.CoreCompileInputs.cache
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.csproj.CopyComplete
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.exe
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.pdb
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Edit.g.cs
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Edit.baml
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.csprojAssemblyReference.cache
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\CreatingCategory.g.cs
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Export.g.cs
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Stastistics.g.cs
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\CreatingCategory.baml
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Export.baml
+C:\Users\Jeremias Bachmann\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Stastistics.baml
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Edit.g.cs
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Export.g.cs
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MainWindow.g.cs
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Stastistics.g.cs
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\App.g.cs
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance_MarkupCompile.cache
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance_MarkupCompile.lref
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.exe
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.pdb
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\MyPrivateFinance.exe.config
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\MyPrivateFinance.exe
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\MyPrivateFinance.pdb
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\EntityFramework.dll
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\EntityFramework.xml
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Edit.baml
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Export.baml
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MainWindow.baml
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Stastistics.baml
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.g.resources
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.Properties.Resources.resources
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.csproj.GenerateResource.cache
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.csproj.CoreCompileInputs.cache
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.csproj.CopyComplete
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Payment.g.cs
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Category.g.cs
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Payment.baml
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\Category.baml
+C:\Users\Jeremias\source\repos\MyPrivateFinance\MyPrivateFinance\obj\Debug\MyPrivateFinance.csprojAssemblyReference.cache
