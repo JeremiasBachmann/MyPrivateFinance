@@ -47,12 +47,36 @@ namespace MyPrivateFinance
             }
         }
 
-        public static void Delete(Categories category)
+        public static void UpdatePayment(int paymentId, string desription, decimal amount,int categoryId,DateTime date, bool isIncome)
+        {
+            using (var _dbContext = new DBConnector())
+            {
+                Payments payment = _dbContext.Payments.FirstOrDefault(p => p.Id == (paymentId));
+                payment.Description = desription;
+                payment.Amount = amount;
+                payment.CategoryId = categoryId;
+                payment.Date = date;
+                payment.IsIncome = isIncome;
+                _dbContext.SaveChanges();
+            }
+        }
+
+        public static void DeleteCategory(Categories category)
         {
             using (var _DBContext = new DBConnector())
             {
                     _DBContext.Categories.Remove(_DBContext.Categories.FirstOrDefault(p => category.Id == p.Id));
                     _DBContext.SaveChanges();
+            }
+        }
+
+
+        public static void DeletePayment(Payments payment)
+        {
+            using (var _DBContext = new DBConnector())
+            {
+                _DBContext.Payments.Remove(_DBContext.Payments.FirstOrDefault(p => payment.Id == p.Id));
+                _DBContext.SaveChanges();
             }
         }
     }

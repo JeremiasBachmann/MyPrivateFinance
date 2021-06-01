@@ -59,7 +59,7 @@ namespace MyPrivateFinance
             var tempCategory = (Categories)listBox.SelectedItem;
             try
             {
-                DBConntext.Delete(tempCategory);
+                DBConntext.DeleteCategory(tempCategory);
                 updateCategories();
             }
             catch (System.Data.Entity.Infrastructure.DbUpdateException)

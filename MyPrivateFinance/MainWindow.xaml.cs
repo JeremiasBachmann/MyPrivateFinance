@@ -68,17 +68,13 @@ namespace MyPrivateFinance
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
             var tempPayment = (Payments)PaymentGrid.SelectedItem;
-            using (var _DBContext = new DBConnector())
+            try{
+                DBConntext.DeletePayment(tempPayment);
+                RefreshPaymentlist();
+            }
+            catch
             {
-                try{
-                    _DBContext.Payments.Remove(_DBContext.Payments.FirstOrDefault(p => tempPayment.Id == p.Id));
-                    _DBContext.SaveChanges();
-                    RefreshPaymentlist();
-                }
-                catch
-                {
-                    MessageBox.Show("Select a Item to Delete");
-                }
+                MessageBox.Show("Select a Item to Delete");
             }
         }
 

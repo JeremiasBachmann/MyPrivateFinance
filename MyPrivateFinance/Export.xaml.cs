@@ -38,12 +38,9 @@ namespace MyPrivateFinance
         {
             if (!string.IsNullOrEmpty(filePath))
             {
-                using (var _DBContext = new DBConnector())
-                {
-                    _DBContext.Payments.ToList().ForEach(p => Paymentlist.Add(p));
-                }
+                Paymentlist = DBConntext.GetPayments();
 
-                var csv = new StringBuilder();
+                 var csv = new StringBuilder();
                 foreach (Payments p in Paymentlist)
                 {
                     var newLine = string.Format("{0},{1},{2},{3},{4},{5}", p.Id, p.Description, p.Amount, p.CategoryId, p.Date, p.IsIncome);

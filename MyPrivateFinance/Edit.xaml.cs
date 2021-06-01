@@ -47,16 +47,7 @@ namespace MyPrivateFinance
 
             if (!string.IsNullOrEmpty(AmountTextbox.Text) && amount > 0 && DateDatePicker.SelectedDate != null && CategorieComboBox.SelectedItem != null)
             {
-                using (var _dbContext = new DBConnector())
-                {
-                    Payments payment = _dbContext.Payments.FirstOrDefault(p => p.Id == (SelectedItem.Id));
-                    payment.Description = DescriptionTextbox.Text;
-                    payment.Amount = amount;
-                    payment.CategoryId = ((Categories)CategorieComboBox.SelectedItem).Id;
-                    payment.Date = (DateTime)DateDatePicker.SelectedDate;
-                    payment.IsIncome = (bool)IsIncomeCheckbox.IsChecked;
-                    _dbContext.SaveChanges();
-                }
+                DBConntext.UpdatePayment(SelectedItem.Id,DescriptionTextbox.Text, amount, ((Categories)CategorieComboBox.SelectedItem).Id, (DateTime)DateDatePicker.SelectedDate,(bool)IsIncomeCheckbox.IsChecked);
                 Close();
             }
             else
