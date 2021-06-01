@@ -50,7 +50,7 @@ namespace MyPrivateFinance
         private void updateCategories()
         {
             Categorylist.Clear();
-            Categorylist = DBConntext.getCategories();
+            Categorylist = DBConntext.GetCategories();
             listBox.ItemsSource = Categorylist;
         }
 
@@ -59,7 +59,7 @@ namespace MyPrivateFinance
             var tempCategory = (Categories)listBox.SelectedItem;
             try
             {
-                DBConntext.delete(tempCategory);
+                DBConntext.Delete(tempCategory);
                 updateCategories();
             }
             catch (System.Data.Entity.Infrastructure.DbUpdateException)

@@ -9,7 +9,7 @@ namespace MyPrivateFinance
 {
     public static class DBConntext
     {
-        public static ObservableCollection<Payments> getPayments()
+        public static ObservableCollection<Payments> GetPayments()
         {
             var paymentlist = new ObservableCollection<Payments>();
             using (var _dbContext = new DBConnector())
@@ -19,7 +19,7 @@ namespace MyPrivateFinance
             return paymentlist;
         }
 
-        public static ObservableCollection<Categories> getCategories()
+        public static ObservableCollection<Categories> GetCategories()
         {
             var categorylist = new ObservableCollection<Categories>();
             using (var _dbContext = new DBConnector())
@@ -29,29 +29,29 @@ namespace MyPrivateFinance
             return categorylist;
         }
 
-        public static void AddCategory(Categories categories)
+        public static void AddCategory(Categories category)
         {
             using (var _dbContext = new DBConnector())
             {
-                _dbContext.Categories.Add(categories);
+                _dbContext.Categories.Add(category);
                 _dbContext.SaveChanges();
             }
         }
 
-        public static void AddPayment(Payments newpayment)
+        public static void AddPayment(Payments payment)
         {
             using (var _dbContext = new DBConnector())
             {
-                _dbContext.Payments.Add(newpayment);
+                _dbContext.Payments.Add(payment);
                 _dbContext.SaveChanges();
             }
         }
 
-        public static void delete(Categories tempCategory)
+        public static void Delete(Categories category)
         {
             using (var _DBContext = new DBConnector())
             {
-                    _DBContext.Categories.Remove(_DBContext.Categories.FirstOrDefault(p => tempCategory.Id == p.Id));
+                    _DBContext.Categories.Remove(_DBContext.Categories.FirstOrDefault(p => category.Id == p.Id));
                     _DBContext.SaveChanges();
             }
         }

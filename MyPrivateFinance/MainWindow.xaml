@@ -34,7 +34,7 @@
 
         <DataGrid Name="PaymentGrid" Grid.Row="2" Grid.ColumnSpan="4" ItemsSource="{Binding Paymentlist}" AutoGenerateColumns="False" IsReadOnly="True">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="#" Binding="{Binding id}" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Header="#" Binding="{Binding Id}" Width="auto"></DataGridTextColumn>
                 <DataGridTextColumn Header="Category" Binding="{Binding Categories.Name}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Date" Binding="{Binding Date}" Width="*"></DataGridTextColumn>

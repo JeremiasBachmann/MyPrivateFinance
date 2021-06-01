@@ -28,7 +28,7 @@ namespace MyPrivateFinance
             InitializeComponent();
             DataContext = this;
             SelectedItem = selectedItem;
-            Categorylist = DBConntext.getCategories();
+            Categorylist = DBConntext.GetCategories();
             setParams(SelectedItem);
         }
 
